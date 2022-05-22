@@ -1,0 +1,69 @@
+@use "sass:math";
+
+//Colores de la página
+    $color-fondo:rgb(209, 231, 203);
+    $color-letra-primario:rgba(240, 47, 101, 0.667);
+    $letra-titulo:rgb(0, 0, 0);
+    $color-fondo-secundario:rgb(239, 79, 250);
+
+//Estilos de la tabla
+    $borde:separate;
+    $bordec:black;
+    //Colores de la tabla
+        $fondof1:rgb(234, 0, 0);
+        $fondof2:rgb(255, 0, 217);
+        $fondof3:rgb(255, 247, 0);
+        $fondof4:rgb(255, 149, 0);
+        $fondof5:rgb(0, 255, 42);
+        $fondof6:rgb(49, 138, 255);
+        $fondof7:rgb(17, 235, 255);
+
+//Tamaños de letra
+    $h1:30px;
+    $h2:25px;
+    $h3:20px;
+    $h4:15px;
+    $h5:10px;
+    $h6:5px;
+
+//Codigo
+body{
+    background-color: $color-fondo;
+}
+
+.header{
+    background-color: $color-fondo-secundario;
+}
+.tabla{
+    border-collapse: $borde;
+    border-color: $bordec{
+    };
+    .fila1{
+        background-color: $fondof1;
+        font-size: $h1;
+    }
+    .fila2{
+        background-color: $fondof2;
+        font-size: $h2;
+    }
+    .fila3{
+        background-color: $fondof3;
+        font-size: $h3;
+    }
+    .fila4{
+        background-color: $fondof4;
+        font-size: $h4;
+    }
+    .fila5{
+        background-color: $fondof5;
+        font-size: $h5;
+    }
+    .fila6{
+        background-color: $fondof6;
+        font-size: $h6;
+    }
+    .fila7{
+        background-color: $fondof7;
+        font-size: $h1;
+    }
+}
